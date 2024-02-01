@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "QuranFont";
+  src: url("/fonts/lpmq.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "QuranFont2";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/_PDMS_Saleem_QuranFont.ttf");
+}
+
+@font-face {
+  font-family: "MajeedFont";
+  src: url("/fonts/Al Qalam Quran Majeed.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uthman";
+  src: url("/fonts/KFGQPC Uthman Taha Naskh Regular.ttf");
+}
+
+@font-face {
+  font-family: "MajeedWeb";
+  src: url("/fonts/Al Qalam Quran Majeed Web Regular.ttf");
+}
+
+.majeed-web {
+  font-family: "MajeedWeb";
+}
+
+.uthmani {
+  font-family: "Uthman";
+}
+
+.arabic {
+  font-family: "QuranFont";
+}
+
+.arabic-style {
+  font-family: "QuranFont2";
+}
+
+.majeed {
+  font-family: "MajeedFont";
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
