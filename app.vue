@@ -45,6 +45,9 @@ useHead({
 			content: '/icons/quran.png'
 		}
 	],
+	link: [
+		{ rel: 'icon', type: 'image/x-icon', href: '/quran.ico' }
+	]
 });
 
 </script>

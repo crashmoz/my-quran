@@ -8,18 +8,18 @@ export default defineNuxtConfig({
   css: [
     "vuetify/lib/styles/main.css",
     "@mdi/font/css/materialdesignicons.min.css",
-    "~/assets/css/main.css",
+    "~/assets/css/styles.css",
   ],
   build: {
     transpile: ["vuetify"],
   },
   modules: [
-    // (_options, nuxt) => {
-    //   nuxt.hooks.hook("vite:extendConfig", (config) => {
-    //     // @ts-expect-error
-    //     config.plugins.push(vuetify({ autoImport: true }));
-    //   });
-    // },
+    (_options, nuxt) => {
+      nuxt.hooks.hook("vite:extendConfig", (config) => {
+        // @ts-expect-error
+        config.plugins.push(vuetify({ autoImport: true }));
+      });
+    },
     "@vite-pwa/nuxt",
     [
       "@nuxtjs/google-fonts",
